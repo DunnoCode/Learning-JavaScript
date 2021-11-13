@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+}
+
+.country .info span{
+    font-weight: bold;
+}
+
+.close:hover{
+    cursor: pointer;
+}
