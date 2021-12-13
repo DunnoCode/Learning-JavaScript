@@ -1,0 +1,67 @@
+.shoppingCart .base{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 360px;
+}
+
+.shoppingCart .base .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+    border-bottom: 1px black solid;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+
+.shoppingCart .base p{
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.shoppingCart .base .nav .navInfo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    margin-top: 3%;
+    justify-content: space-around;
+}
+
+.shoppingCart .base .nav .navInfo p{
+    font-size: 1.8vh;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.shoppingCart .base .cards{
+    margin-top: 5%;
+    border-bottom: 1px black solid;
+}
+
+.shoppingCart .base .control{
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shoppingCart .base .Nothing{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoppingCart .base .Nothing p{
+    font-size: 4vh;
+    margin-top: -5vh;
+}

@@ -1,0 +1,52 @@
+.invoice{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.invoice .base{
+    width: 80vw;
+    height: auto;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    padding: 3vh 3vw
+}
+
+.invoice .base .info{
+    width: 100%;
+    height: auto;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.invoice .base .info h1{
+    text-shadow: -0.2vh 0 black, 0 0.2vh black, 0.2vh 0 black, 0 -0.2vh black;
+    font-size: 4vh;
+    color: white;
+    border-bottom: 3px solid black;
+    padding-bottom: 1vh;
+}
+
+
+.invoice .base .info p{
+    padding-top: 1vh;
+    align-self: flex-start;
+    font-size: 2vh;
+}
+
+.invoice .base .info p span{
+    font-weight: 500;
+}
+
+.invoice .base .selectedItems{
+    width: 100%;
+    border-top: 1px solid black;
+}

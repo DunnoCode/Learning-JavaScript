@@ -1,0 +1,16 @@
+.card .cardBase{
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    width: 300px;
+    min-height: 500px;
+    background-color: #ffffba;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .cardBase p{
+    align-self: flex-start;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+}

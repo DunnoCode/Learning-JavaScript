@@ -1,0 +1,112 @@
+.login .base{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("./image/musicBackground.jpg");
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 360px;
+}
+
+.login .shopName{
+    width: 50vw;
+    height: 10vh;
+    background-color: rgba(211, 38, 38, 0.9);
+    border: black solid 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .shopName p{
+    font-weight: 600;
+    font-size: 3.5vh;
+    color: white;
+}
+
+.login .loginForm{
+    width: 50vw;
+    height: 50vh;
+    background-color:  rgba(255, 255, 255, 0.8);
+    border-right: black solid 4px;
+    border-bottom: black solid 4px;
+    border-left: black solid 4px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login .title{
+    margin-top: 2%;
+    width: 60%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .title p{
+    font-weight: 800;
+    text-shadow: -0.2vh 0 black, 0 0.2vh black, 0.2vh 0 black, 0 -0.2vh black;
+    font-size: 3.5vh;
+    color: white;
+}
+
+.login .inputBase{
+    margin-top: 10%;
+    width: 60%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login .inputBase input{
+    height: 50%;
+    font-size: 2vh;
+}
+
+.login .inputBase .warning p{
+    font-size: 2vh;
+    color: red;
+}
+
+.login .warning p{
+    font-size: 2vh;
+    color: red;
+}
+
+.login .loginForm .buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.login .loginForm button{
+    background-color: rgba(211, 38, 38, 0.9);
+    border: none;
+    color: white;
+    padding: 2vh 4vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+
+/* when the browser window is 600px wide or less: */
+@media only screen and (max-width: 600px) {
+    .login .shopName{
+        width: 70vw;
+    }
+
+    .login .loginForm{
+        width: 70vw;
+    }
+  }

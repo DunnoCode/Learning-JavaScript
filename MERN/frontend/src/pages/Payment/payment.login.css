@@ -1,0 +1,129 @@
+.paymentLogin .base{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    min-width: 360px;
+}
+
+.paymentLogin .shopName{
+    width: 70vw;
+    height: 200px;
+    background-color: rgba(211, 38, 38, 0.9);
+    border: black solid 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentLogin .shopName p{
+    font-weight: 600;
+    font-size: 3.5vh;
+    color: white;
+}
+
+
+.paymentLogin .deliveryForm{
+    width: 70vw;
+    height: auto;
+    background-color:  rgba(255, 255, 255, 0.8);
+    border-right: black solid 4px;
+    border-bottom: black solid 4px;
+    border-left: black solid 4px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paymentLogin .title{
+    margin-top: 2%;
+    width: 60%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentLogin .title p{
+    font-weight: 800;
+    text-shadow: -0.2vh 0 black, 0 0.2vh black, 0.2vh 0 black, 0 -0.2vh black;
+    font-size: 3.5vh;
+    color: #ffffba;
+}
+
+.paymentLogin .inputBase{
+    margin-top: 3vh;
+    width: 60%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.paymentLogin .inputBase input{
+    height: 5vh;
+    font-size: 2vh;
+}
+
+.paymentLogin .inputBase .warning p{
+    font-size: 2vh;
+    color: red;
+}
+
+.paymentLogin .warning p{
+    font-size: 2vh;
+    color: red;
+}
+
+.paymentLogin .deliveryForm .selectedItems{
+    margin-top: 3vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    align-items: flex-start;
+    background-color: #ffffba;
+}
+
+.paymentLogin .deliveryForm .selectedItems p{
+    font-size: 2vh;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    padding-bottom: 2vh;
+}
+
+.paymentLogin .deliveryForm .buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffba;
+}
+
+.paymentLogin .deliveryForm button{
+    background-color: rgba(211, 38, 38, 0.9);
+    border: none;
+    color: white;
+    padding: 2vh 4vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+
+/* when the browser window is 600px wide or less: */
+@media only screen and (max-width: 600px) {
+    .paymentLogin .shopName{
+        width: 70vw;
+    }
+
+    .paymentLogin .loginForm{
+        width: 70vw;
+    }
+  }
